@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap" rel="stylesheet">
+
+    <title>Personal Portfolio</title>
+</head>
+<body>
+    <section id="main">
+    <!--Navigation Bar  -->
+    <nav>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#skill-click">Skills</a></li>
+            <li><a href="#education-click">Education</a></li>
+            <li><a href="#project-click">Projects</a></li>
+            <li><a href="#contact-click">Contacts</a></li>
+
+        </ul>
+    <!-- Say hello  -->
+    
+
+    </nav>
+    <div class="content">
+        <div class="model">
+            <img src="MyImg.jpg">
+        </div>
+        <div class="main-text">
+            <h1>Hello, I am Mohd Bahaul Mustafa</h1>
+            <p>I am a Trainee Software Engineer at Synoriq. With aim to utlize my knowledge and skill for the professional as well as organizational growth.</p>
+
+            <a href="#skill-click" class="portfolio-btn">See My Portfolio</a>
+        </div>
+    </div>
+    </section>
+    
+    <!-- Skills -->
+    <div id="skill-click"></div>
+    <div class="inner">
+        <div class="skill-heading">
+            <h1>My Skills</h1>
+        </div>
+        <div class="container">
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img1">
+                        <img src="data:image/png;base64,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" alt="html" class="skill-icon">
+                    </div>
+                    <h3>HTML 5</h3>
+
+                </div>
+                <p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img1">
+                        <img src="data:image/png;base64,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" alt="CSS" class="skill-icon">
+                    </div>
+                    <h3>CSS</h3>
+
+                </div>
+                <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web.</p>
+            </div>
+            
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img1">
+                        <img src="data:image/png;base64,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" alt="red-hat" class="skill-icon">
+                    </div>
+                    <h3>Red Hat Linux</h3>
+
+                </div>
+                <p>Red Hat Enterprise Linux supports and powers software and technologies for automation, cloud, containers, middleware, storage, application development, microservices, virtualization, management, and more. Linux plays a major role as the core of many of Red Hat's.</p>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img1">
+                        <img src="data:image/png;base64,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" alt="AWS" class="skill-icon">
+                    </div>
+                    <h3>Amazon Web Services(AWS).</h3>
+
+                </div>
+                <p>Amazon Web Services (AWS) is a secure cloud services platform, offering compute power, database storage, content delivery and other functionality to help businesses scale and grow.</p>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img1">
+                        <img src="data:image/png;base64,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" class="skill-icon" alt="Python">
+                    </div>
+                    <h3>Python</h3>
+
+                </div>
+                <p>Python is an interpreted high-level general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation.</p>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img1">
+                        <img src="data:image/png;base64,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" alt="Docker" class="skill-icon">
+                    </div>
+                    <h3>Docker</h3>
+
+                </div>
+                <p>Docker is a popular open-source project written in go and developed by Dotcloud (A PaaS Company). It is basically a container engine that uses the Linux Kernel features like namespaces and control groups to create containers on top of an operating system.</p>
+            </div>
+
+        </div>
+
+    </div>
+    
+                      <!-- Eduction -->
+    <div id="education-click"></div>
+    <div class="eduaction"><h1>Education</h1></div>
+
+        <div class="card-whole">
+            <div class="container1">
+                <div class="card">
+                    <div class="box">
+                    <div class="content1">
+                        <h2>Class X (2015)</h2>
+                        <h3>School: Hartmann College, Bareilly.</h3>
+                        <p>Board:ICSE, Percentage:70%</p>
+                    </div> 
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                    <div class="content1">
+                        <h2>Class XII (2017)</h2>
+                        <h3>School: Hartmann College, Bareilly.</h3>
+                        <p>Board:ICSE, Percentage:70%</p>
+                    </div> 
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                    <div class="content1">
+                        <h2>B.Tech in Infromation Technology. (2017-21)</h2>
+                        <h3>College: SRMS College Bareilly.</h3>
+                        <p>University:AKTU, Percentage:70%</p>
+                    </div> 
+                    </div>
+                </div>
+
+                
+
+            </div>
+        </div>
+
+    </div>
+
+                        <!-- Projetcs -->
+            <div id="project-click"></div>
+            <div class="pj">
+                <h1>Projects</h1>
+            </div>
+            <div class="body1">
+                <div class="card1">
+                    <div class="card-image1"> </div>
+                        <div class="card-text1">
+                            <h3>Design and development of automated attendance system using quick face detection technique.</h3>
+                            <p>This system is attempting to provide an automated attendance system that carries out the face recognition task through the cctv camera  or using video stream, record the attendance in lectures or sections and maintaining the database of attendance.</p>
+
+                        </div>
+                   
+                </div>
+
+                <div class="card2">
+                    <div class="card-image2"> </div>
+                        <div class="card-text1">
+                            <h3>Design and development of Terminal user Interface.</h3>
+                            <p>This system is attempting to provide the linux experience to users who have no prior knowledge of linux by automatically executing the command selected by the user.</p>
+
+                        </div>
+                   
+                </div>
+        </div>
+
+
+       <!-- Contacts -->
+        <footer>
+            <div id="contact-click"></div>
+            <div class="wrapper">
+                <h1>Contacts</h1>
+                <div class="media">
+                <ul>
+                    <li class="hov"><a href="https://www.linkedin.com/in/mohd-bahaul-mustafa-2736021a6" class="fa fa-linkedin" target="_blank"></a></li>
+                    <li class="hov"><a href="https://github.com/MdBahaul007" class="fa fa-github" target="_blank"></a></li>
+                    <li class="hov"><a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a></li>
+                    <li class="hov"><a href="https://www.gmail.com" class="fa fa-google" target="_blank"></a></li>
+                    
+                    
+                </ul>    
+                </div>
+            </div>
+        
+        </footer>
+
+</body>
+</html>
